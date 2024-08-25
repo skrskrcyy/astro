@@ -9,7 +9,7 @@ export const Greeting = ({messages}: {messages: string[]}) => {
       <div>
         <h3>{greeting}! Thank you for visiting!</h3>
         <button onClick={() => {
-            console.log(332)
+            console.log('hello')
             setGreeting(randomMessage())
         }}>
           New Greeting
